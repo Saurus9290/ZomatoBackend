@@ -44,11 +44,11 @@ Our backend is architected with a modular approach. While the main API connectio
 ## API Endpoints
 
 - **Fetch All Orders**
-  - **Endpoint**: `GET [http://localhost:8080/api/orders]`
+  - **Endpoint**: `GET [http://localhost:8080/api/orders
   - **Response**: An array of order objects.
 
 - **Fetch Orders with Pagination**
-  - **Endpoint**: `GET [http://localhost:8080/api/orders?limit=4&offset=3]`
+  - **Endpoint**: `GET [http://localhost:8080/api/orders?limit=4&offset=1
   - **Response**: An array of order objects, filtered by provided `limit` and `offset` parameters.
 
 - Error Handling:
